@@ -1,1 +1,1 @@
-Exercicios e teste feitos durante o curso de java do fiasco 
+Exercicios e testes feitos durante o curso de java do fiasco 
