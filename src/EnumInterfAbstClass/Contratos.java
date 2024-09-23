@@ -1,4 +1,4 @@
-package Enum;
+package EnumInterfAbstClass;
 
 public interface Contratos {
 

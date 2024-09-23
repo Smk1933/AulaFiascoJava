@@ -1,4 +1,4 @@
-package Enum;
+package EnumInterfAbstClass;
 
 public enum FormaPag {
     CREDITO("Pagamento via cartão de crédito", 1),

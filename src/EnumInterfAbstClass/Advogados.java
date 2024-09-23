@@ -1,6 +1,16 @@
-package Enum;
+package EnumInterfAbstClass;
 
-public class Advogados implements Contratos {
+public class Advogados extends Pessoa {
+
+    public Advogados(){
+        super();
+    }
+
+
+    public Advogados(String name, int age, FormaPag typePayment) {
+        super(name, age, typePayment);
+    }
+
 
 
     @Override
