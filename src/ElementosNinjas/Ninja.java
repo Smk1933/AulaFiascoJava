@@ -24,6 +24,10 @@ public abstract class Ninja implements Habilidade {
         this.qi = qi;
     }
 
+    final void tacarKunai(){                  //Metodos final impedem que sejam sobreescritos, alterado e afins... pode ser usado em classes, argumentos, qualquer coisa
+        System.out.println("Tacando Kunai");
+    }
+
     @Override
     public void golpeBasico() {
 

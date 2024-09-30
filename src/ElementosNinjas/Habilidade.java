@@ -6,4 +6,5 @@ public interface Habilidade {
     void golpeEspecial(Elemento elemento);
     void conhecimentoNinja();
 
+
 }
