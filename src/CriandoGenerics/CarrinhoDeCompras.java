@@ -5,7 +5,11 @@ import java.util.List;
 
 public class CarrinhoDeCompras<T> {
 
-    private List<T> itens = new ArrayList<>();
+    private List<T> itens;
+
+    public CarrinhoDeCompras(){
+        this.itens = new ArrayList<>();
+    }
 
     public void adicionarItem(T item) {
         itens.add(item);
