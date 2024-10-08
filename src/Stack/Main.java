@@ -11,7 +11,9 @@ public class Main {
         System.out.println(nomes);
         nomes.push("Fernanda");
         System.out.println(nomes);
-        nomes.add("Silvana");
+        nomes.pop();
         System.out.println(nomes);
+
+
     }
 }
