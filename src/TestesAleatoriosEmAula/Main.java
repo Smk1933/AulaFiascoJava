@@ -1,34 +1,23 @@
 package TestesAleatoriosEmAula;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) {
 
 
+    Scanner teclado = new Scanner(System.in);
 
-        List<String> nomes = new ArrayList<>();
+    String name;
+    int cod;
 
-        nomes.add("sdsds");
-        nomes.add("55");
-        System.out.println(nomes);
-        nomes.add(1,"435");
-
-        for (String nome : nomes){
-            System.out.println(nome);
-        }
-
-        nomes.set(0,"asa");  // Ele substitui
-
-        System.out.println(nomes);
-
-        nomes.add(0,"narutop"); //Ele adiciona, jogando o elemento do indice antigo para frente da "fila"
-        System.out.println(nomes);
-
-
-
-
+        System.out.println("Digite seu cod");
+    cod = teclado.nextInt();
+        System.out.println("Seu código é : " + cod);
+        System.out.println("Digite seu nome");
+    name = teclado.nextLine();
+        System.out.println("Seu nome é : " + name);
 
 
     }
